@@ -1,8 +1,17 @@
-# React + Vite
+# Countdown Timer to 2026
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação simples em React que exibe uma contagem regressiva para o Ano Novo de 2026, com uma interface visual agradável e fácil de usar.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Exibe a contagem regressiva em dias, horas, minutos e segundos.
+- A contagem regressiva é atualizada a cada segundo.
+- Utiliza um fundo de imagem temático de fogos de artifício para tornar a interface mais atraente.
+
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca para construir interfaces de usuário.
+- **JavaScript**: Linguagem de programação para manipulação da lógica da contagem regressiva.
+- **CSS**: Estilização da interface, incluindo a imagem de fundo e layout responsivo.
+- **useState e useEffect**: Hooks do React para gerenciar o estado da aplicação e configurar o intervalo de contagem regressiva.
+
